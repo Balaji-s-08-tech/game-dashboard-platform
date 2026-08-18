@@ -1,0 +1,66 @@
+# Node / React Frontend
+node_modules/
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# .NET / C# Backend
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+*.dll
+*.exe
+*.pdb
+
+# Environment
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+
+# IDE
+.vscode/
+.idea/
+.vs/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SQLite DBs
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# AI Artifacts
+.claude/
+.claude-code/
+.cursor/
+.cursor-cache/
+.cursor-tmp/
+.gemini/
+.antigravity/
+.aider/
+.aider*
+.copilot/
+.codeium/
+.roo/
+.roocode/
+.windsurf/
+.cline/
+.continue/
+.history/
